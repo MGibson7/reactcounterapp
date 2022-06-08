@@ -55,7 +55,7 @@ function App() {
       cookTime: "",
       instructions: '',
       ingredients: [{
-        id: uuidv4(), name: 'Name', amount: '1 Tbs'
+        id: uuidv4(), name: "", amount: ''
       }]
     }
     setSelectedRecipeId(newRecipe.id)
